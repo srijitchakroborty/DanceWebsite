@@ -1,0 +1,24 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleAbout.css
+
+block content
+    h1 About us
+    div.imgContainer1
+        img(src="../static/studio/studio1.jpg", alt="studio")
+        img(src="../static/studio/studio2.jpg", alt="studio")
+    div.para1
+        p The Dance Studio provides professional and challenging classes for students of all levels, but more importantly offers these classes in a positive, nurturing, and encouraging environment. There are so many challenges that students face today and we know how important it is to allow them to grow in a loving and accepting space. Our classes provide goals, allowing students to strive and achieve. They build confidence, strengthen their skills and are well rounded dancers and people.
+        h2 A Loving Atmosphere
+        p The dance world is continually evolving and we as a studio grow with it, but the warm family atmosphere here is always a constant. Many of our students start at the age of 3 and continue dancing with The Dance Studio until they graduate high school. It's a rare and incredible opportunity to be a part of our students' lives from childhood to young adult. We are able to create incredible dancers who feel good about themselves and know they are among great friends for life!
+        img(src="../static/studio/studio3.jpg", alt="studio")
+
+
+
+

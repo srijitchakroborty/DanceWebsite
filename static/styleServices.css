@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(252, 235, 214);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.container1 h3{
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.danceForm{
+    background-color: rgb(250, 229, 229);
+    border: 2px solid black;
+    height: 280px;
+    width: 500px;
+    text-align: center;
+    margin: 30px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.danceForm img{
+    width: 320px;
+    margin-top: 8px;
+}

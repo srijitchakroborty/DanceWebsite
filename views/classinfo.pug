@@ -1,0 +1,86 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleClassInfo.css
+
+block content
+    h1 Class Info
+    div.classTable
+        table
+            caption CLASS TIMING
+            thead
+            tr
+                th Day
+                th 
+                th Timing
+            tbody
+            tr
+                td Monday
+                td
+                td 2pm-8pm
+            tr
+                td Tuesday
+                td
+                td 10am-6pm
+            tr
+                td Wednesday
+                td
+                td 10am-6pm
+            tr
+                td Thursday
+                td
+                td 1pm-7pm
+            tr
+                td Friday
+                td
+                td 2pm-6pm
+            tr
+                td Saturday
+                td
+                td 10am-2pm
+            tr
+                td Sunday
+                td
+                td 10am-12pm
+    div.para1
+        p Note- Each student is entitled to 2 classes per week.
+
+
+    div.classTable
+        table
+            caption FEE STRUCTURE
+            thead
+            tr
+                th Dance Form
+                th 
+                th Monthly Fee
+            tbody
+            tr
+                td Hip-hop
+                td
+                td ₹ 1500
+            tr
+                td Bollywood
+                td
+                td ₹ 1200
+            tr
+                td Classical
+                td
+                td ₹ 1500
+            tr
+                td Salsa
+                td
+                td ₹ 1800
+            tr
+                td Ballet
+                td
+                td ₹ 1600
+            tr
+                td Zumba
+                td
+                td ₹ 1200

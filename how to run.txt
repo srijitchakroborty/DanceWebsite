@@ -1,0 +1,5 @@
+Open VS code or in terminal run by writing 'node .\app.js' or 'nodemon .\app.js' or 'node app.js' or 'nodemon app.js'. Link- http://127.0.0.1:8000/
+Then open cmd in this drive & write mongod
+Again open cmd in this drive & write mongo
+Then run
+To check contact database- 'show dbs' -->  'use contactDance' --> 'show collections' --> 'db.contacts.find()'

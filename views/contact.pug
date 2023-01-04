@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleContact.css
+
+block content
+    div.container
+        h1 Contact us
+        form(action="/contact", class="myForm", method="post")
+            input(type="text", class="myInput", name="name", placeholder="Enter your name")
+            input(type="phone", class="myInput", name="phone", placeholder="Enter your phone number")
+            input(type="email", class="myInput", name="email", placeholder="Enter your email address")
+            select(name="location", class="myInput") 
+                option(value="Select your location")|Select your location
+                option(value="Kolkata")|Kolkata
+                option(value="Mumbai")|Mumbai
+                option(value="Delhi")|Delhi
+                option(value="Bengaluru")|Bengaluru
+                option(value="Chennai")|Chennai
+            textarea(name="message", cols="30", rows="10", placeholder="Enter your message", class="myInput")
+            button(class="btn")
+                | Submit

@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(217, 239, 249);
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.classTable{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 630px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.classTable th{
+    padding: 20px;
+    color: rgb(7, 7, 154);
+}
+.classTable td{
+    padding: 10px;
+    color: rgb(149, 3, 3);
+}
+.classTable caption{
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para1 p{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+}

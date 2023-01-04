@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Magic-Feet Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/logo.jpg", alt="logo")
+                |MFDA
+            li #[a(href='/' target="_blank") Home]
+            li #[a(href='about' target="_blank") About]
+            li #[a(href='services' target="_blank") Services]
+            li #[a(href='classinfo' target="_blank") Class info]
+            li #[a(href='contact' target="_blank") Contact us]
+    block content
+    footer#footer
+            | Copyright © 2022 Magic-FeetDanceAcademy.com | All rights reserved

@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+    
+    section#introSection
+        div Welcome to Magic-Feet Dance Academy
+        div.small Eat Dance Sleep Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            img#img1(src='../static/dance1.jpg', alt='dance')
+            p Our aim is to make all our students a perfect dancer.
+        div.card
+            h3 Dance your heart out
+            img#img2(src='../static/dance2.jpg', alt='dance')
+            p We believe in dancing our heart out like no one is watching. 
+        div.card
+            h3 Professional Dancer
+            img#img3(src='../static/dance4.jpg', alt='dance')
+            p Every year we produce top class professional dancer.
+
+
+    section#branchSection
+        h2 Our Branches
+        div#branch
+            img(src="/static/location/branch1a.jpg", alt="kolkata", class="brImages")        
+            img(src="/static/location/branch2a.jpg", alt="mumbai", class="brImages")        
+            img(src="/static/location/branch3a.jpg", alt="delhi", class="brImages")        
+            img(src="/static/location/branch4a.jpg", alt="bengaluru", class="brImages")        
+            img(src="/static/location/branch5a.jpg", alt="chennai", class="brImages")

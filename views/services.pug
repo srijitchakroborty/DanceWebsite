@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleServices.css
+block content
+    h1 Services
+    
+    div.container1
+
+        div.danceForm
+            h3 Hip-Hop
+            img(src='../static/dance/hiphop.jpg', alt='hiphop')
+        div.danceForm
+            h3 Bollywood
+            img(src='../static/dance/bolly.jpg', alt='bolly')
+
+    div.container1
+
+        div.danceForm
+            h3 Classical 
+            img(src='../static/dance/classical.jpg', alt='classical')  
+        div.danceForm
+            h3 Salsa
+            img(src='../static/dance/salsa.jpg', alt='salsa')
+
+    div.container1
+
+        div.danceForm
+            h3 Ballet
+            img(src='../static/dance/ballet.jpg', alt='ballet')   
+        div.danceForm
+            h3 Zumba
+            img(src='../static/dance/zumba.jpg', alt='zumba')
